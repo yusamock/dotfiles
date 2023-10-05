@@ -1,2 +1,3 @@
 # dotfiles
-my dotfiles, nothing really special
+
+dotfiles, i guess?...
