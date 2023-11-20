@@ -1,5 +1,5 @@
 # welcome!
-Thx for visiting, sorry for bad syntax or formating this text itself, im a lil bit newbie lmao
+Thx for visiting 🩷, sorry for bad syntax or formating this text itself, im a lil bit newbie lmao
 
 ## info 🌊
 
