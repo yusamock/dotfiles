@@ -2,7 +2,7 @@ set background=dark
 highlight clear
 syntax reset
 
-let g:colors_name='wal'
+let g:colors_name='darkwave'
 
 hi Boolean	      guibg=NONE	 guifg=#ffffff
 hi Character          guibg=NONE         guifg=#ffffff
@@ -12,8 +12,8 @@ hi Condtional         guibg=NONE         guifg=#ffffff
 hi Constant           guibg=NONE         guifg=#ffffff
 hi CursorColumn       guibg=NONE         guifg=#ffffff
 hi Cursor             guibg=NONE         guifg=#ffffff
-hi CursorLine         guibg=#5B5D5F      guifg=#ffffff     gui=bold
-hi CursorLineNr       guibg=NONE         guifg=#ffffff     gui=bold gui=bold
+hi CursorLine         guibg=#5B5D5F      guifg=#ffffff
+hi CursorLineNr       guibg=NONE         guifg=#ffffff
 hi Debug              guibg=NONE         guifg=#ffffff
 hi Define             guibg=NONE         guifg=#ffffff
 hi Delimiter          guibg=NONE         guifg=#A29D9F
@@ -45,7 +45,7 @@ hi Number             guibg=NONE         guifg=#ffffff
 hi Operator           guibg=NONE         guifg=#ffffff
 hi Pmenu              guibg=NONE         guifg=#ffffff
 hi PmenuSbar          guibg=NONE         guifg=#ffffff
-hi PmenuSel           guibg=NONE         guifg=#A29D9F        gui=bold
+hi PmenuSel           guibg=NONE         guifg=#A29D9F
 hi PmenuThumb         guibg=NONE         guifg=#ffffff
 hi PreCondit          guibg=NONE         guifg=#ffffff
 hi PreProc            guibg=NONE         guifg=#ffffff
@@ -82,4 +82,3 @@ hi WildMenu          guibg=NONE         guifg=#ffffff
 "hi def link diffRemoved DiffDelet
 "hi def lin diffChanged DiffChang
 "hi def link diffAdded DifAdd
- 
