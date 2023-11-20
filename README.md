@@ -3,15 +3,15 @@ Thx for visiting 🩷, sorry for bad syntax or formating this text itself, im a 
 
 ## info 🌊
 
-+ os: [arch](archlinux.org)
++ os: [arch](archlinux.org) 🔒
 
-+ wms: [bspwm](https://github.com/baskerville/bspwm) and [dwm](https://dwm.suckless.org/)
++ wms: [bspwm](https://github.com/baskerville/bspwm) and [dwm](https://dwm.suckless.org/) 🪟
 
-+ terminal: [st](https://github.com/siduck/st)
++ terminal: [st](https://github.com/siduck/st) 🖥️
 
-+ colorscheme: wal (i'll give a name later, no ideas rn. if you and the full color palette, check .Xresources)
++ colorscheme: darkwave 🎨
 
-+ font: [sq](https://github.com/leahneukirchen/sq)
++ font: [sq](https://github.com/leahneukirchen/sq) 🌟
 
 
 
