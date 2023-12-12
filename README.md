@@ -24,6 +24,10 @@ Thx for visiting 🩷, sorry for bad syntax or formating this text itself, im a 
 ### [dwm] darkwave
 ![2023-11-19-184255_1920x1080_scrot](https://github.com/yusamock/dotfiles/assets/141967852/c6bc58b2-3f79-45e2-9606-78d4b16b940e)
 
+### [hyprland] yewave
+![20231212_00h04m20s_grim](https://github.com/yusamock/dotfiles/assets/141967852/5567cd6c-2a9c-4378-94d2-cf22a89ef752)
+
+
 
 # credits 💌
 
