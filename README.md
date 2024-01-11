@@ -8,9 +8,9 @@ Thx for visiting 🩷, sorry for bad syntax or formating this text itself, im a 
 
 + wms: [bspwm](https://github.com/baskerville/bspwm), [dwm](https://dwm.suckless.org/), [hyprland](https://hyprland.org/) 🪟
 
-+ terminal: [st](https://github.com/siduck/st) 🖥️
++ terminal: [st](https://github.com/siduck/st), [kitty](https://sw.kovidgoyal.net/kitty/) 🖥️
 
-+ colorscheme: darkwave 🎨
++ colorscheme: darkwave & catppuccin frappe 🎨
 
 + font: [sq](https://github.com/leahneukirchen/sq) and [jet brains mono nf](https://www.nerdfonts.com/) 🌟
 
