@@ -27,6 +27,9 @@ Thx for visiting 🩷, sorry for bad syntax or formating this text itself, im a 
 ### [hyprland] yewave
 ![20231212_00h04m20s_grim](https://github.com/yusamock/dotfiles/assets/141967852/5567cd6c-2a9c-4378-94d2-cf22a89ef752)
 
+### [hyprland] catpuccin frappe
+![20240111_01h01m20s_grim](https://github.com/yusamock/dotfiles/assets/141967852/76d71179-9603-4b73-a77e-8ecaa28762cc)
+
 
 
 # credits 💌
