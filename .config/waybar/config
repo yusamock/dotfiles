@@ -1,15 +1,15 @@
 {
     // "layer": "top", // Waybar at top layer
-    // "position": "bottom", // Waybar position (top|bottom|left|right)
+    "position": "top", // Waybar position (top|bottom|left|right)
     "height": 30, // Waybar height (to be removed for auto height)
-    // "width": 1280, // Waybar width
+    "width": 1850, // Waybar width
     "spacing": 4, // Gaps between modules (4px)
     // Choose the order of the modules
-    "modules-left": ["hyprland/workspaces", "sway/mode", "sway/scratchpad", "custom/media"],
-    "modules-center": ["hyprland/window"],
-    "modules-right": ["clock", "tray"],
+    "modules-left": ["custom/separator", "hyprland/window"],
+    "modules-center": ["hyprland/workspaces"],
+    "modules-right": ["custom/updates", "temperature", "custom/separator2", "custom/weather", "custom/separator2", "clock", "custom/wlogout"],
     // Modules configuration
-     "wlr/workspaces": {
+     "hyprland/workspaces": {
     //     "disable-scroll": true,
          "all-outputs": true,
 	 "active-only": false,
@@ -17,21 +17,20 @@
 	 "1": [],
 	 "2": [],
 	 "3": [],
-	 "4": [],
-	 "5": [],
-	},
+	 "4": []
+},
     //     "warp-on-scroll": false,
-    //     "format": "{icon}",
-    //     "format-icons": {
+         "format": "{icon}",
+         "format-icons": {
     //         "1": "",
     //         "2": "",
     //         "3": "",
     //         "4": "",
     //         "5": "",
     //        "urgent": "",
-    //         "active": "",
-    //         "default": ""
-    // }
+             "active": "",
+             "default": ""
+      }
      },
     "keyboard-state": {
         "numlock": true,
@@ -42,8 +41,10 @@
             "unlocked": ""
         }
     },
-    "sway/mode": {
-        "format": "<span style=\"italic\">{}</span>"
+    "custom/wlogout": {
+        "format": "",
+        "on-click": "wlogout -c 5 -r 5 -p layer-shell",
+        "interval": "once"
     },
     "sway/scratchpad": {
         "format": "{icon} {count}",
@@ -51,6 +52,16 @@
         "format-icons": ["", ""],
         "tooltip": true,
         "tooltip-format": "{app}: {title}"
+    },
+       "custom/updates": {
+       "format": "{} {icon}",
+       "return-type": "json",
+       "format-icons": {
+           "has-updates": "󱍷",
+           "updated": "󰂪"
+       },
+       "exec-if": "which waybar-module-pacman-updates",
+       "exec": "waybar-module-pacman-updates"
     },
     "mpd": {
         "format": "{stateIcon} {consumeIcon}{randomIcon}{repeatIcon}{singleIcon}{artist} - {album} - {title} ({elapsedTime:%M:%S}/{totalTime:%M:%S}) ⸨{songPosition}|{queueLength}⸩ {volume}% ",
@@ -92,11 +103,20 @@
     "clock": {
         // "timezone": "America/New_York",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-        "format-alt": "{:%Y-%m-%d}"
+        "format": " {:%H:%M}",
+        "format-alt": "{:%Y-%m-%d}",
+        "format-icons": {
+          "clock-icon": ""
+        }
+        
     },
     "cpu": {
         "format": "{usage}% ",
         "tooltip": false
+    },
+    "custom/separator": {
+      "format": "",
+      "tooltip": false
     },
     "memory": {
         "format": "{}% "
@@ -107,12 +127,17 @@
         "critical-threshold": 80,
         // "format-critical": "{temperatureC}°C {icon}",
         "format": "{temperatureC}°C {icon}",
-        "format-icons": ["", "", ""]
+        "format-icons": ["", "", ""]
     },
-    "backlight": {
-        // "device": "acpi_video1",
-        "format": "{percent}% {icon}",
-        "format-icons": ["", "", "", "", "", "", "", "", ""]
+    "custom/weather": {
+        "format": " {}",
+        "tooltip": false,
+        "interval": 3600,
+        "exec": "~/.config/waybar/scripts/weather.sh"
+    },
+    "custom/separator2": {
+      "format": "|",
+      "tooltip": false
     },
     "battery": {
         "states": {
@@ -131,18 +156,13 @@
     "battery#bat2": {
         "bat": "BAT2"
     },
-    "network": {
-        // "interface": "wlp2*", // (Optional) To force the use of this interface
-        "format-wifi": "{essid} ({signalStrength}%) ",
-        "format-ethernet": "{ipaddr}/{cidr} ",
-        "tooltip-format": "{ifname} via {gwaddr} ",
-        "format-linked": "{ifname} (No IP) ",
-        "format-disconnected": "Disconnected ⚠",
-        "format-alt": "{ifname}: {ipaddr}/{cidr}"
+    "custom/japan": {
+      "format": "放っておいて",
+      "tooltip": "false"
     },
     "pulseaudio": {
         // "scroll-step": 1, // %, can be a float
-        "format": "{volume}% {icon} {format_source}",
+        "format": "{icon} {volume}%",
         "format-bluetooth": "{volume}% {icon} {format_source}",
         "format-bluetooth-muted": " {icon} {format_source}",
         "format-muted": " {format_source}",
