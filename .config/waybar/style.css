@@ -5,10 +5,20 @@
 }
 
 window#waybar {
-    background-color: rgba(43, 48, 59, 0);
-    color: #ffffff;
-    transition-property: background-color;
-    transition-duration: .5s;
+    background-color: transparent;
+    color: #fab387;
+    border-radius: 4px;
+}
+
+window#waybar > box {
+  border-radius: 4px;
+  margin-right: 10;
+  margin-left: 10;
+  margin-bottom: 10;
+  margin-top: 15;
+  min-width: 65px;
+  padding: 0 2px;
+  background-color: #1e1e2e;
 }
 
 window#waybar.hidden {
@@ -58,11 +68,7 @@ button:hover {
 }
 
 #workspaces button.active {
-    background-color: #626880;
-    border-radius: 6px;
-    margin-left: 4px;
-    margin-right: 4px;
-
+    color: #a6e3a1;
 }
 
 #workspaces button.urgent {
@@ -89,49 +95,62 @@ button:hover {
 #mode,
 #idle_inhibitor,
 #scratchpad,
-#mpd {
-    padding: 2 10px;
-    margin: 2 4px;
+#mpd, #clock, #pulseaudio, #temperature, #custom-spotify, #workspaces, #custom-japan {
     color: #ffffff;
-    border-radius: 4px;
+    border-radius: 8px;
+    margin: 5px 4px;
+    padding: 2px 2px;
+    margin-right: 6px;
+    background-color: #1e1e2e;
 }
 
 #window {
-	background-color: #303446;
-	margin: 2 4px;
-	padding: 2 5px;
+	background-color: #1e1e2e;
+	padding: 0 10px;
 	border-radius: 4px;
 }
 
 #workspaces {
-    margin: 2 4px;
-    padding: 6 0px;
-    background-color: #303446;
-    border-radius: 4px;
-    
+    background-color: #313244
 }
 
 /* If workspaces is the leftmost module, omit left margin */
-.modules-left > widget:first-child > #workspaces {
-    margin-left: 4;
+.modules-left > widget:first-child > #temperature {
+    margin-left: 21;
 }
 
 .modules-left- > widget:first-child > #workspaces button.active {
-	margin-left: 4;
+	margin-left: 3;
 }
 
 /* If workspaces is the rightmost module, omit right margin */
 .modules-right > widget:last-child > #workspaces {
-    margin-right: 0;
-}
-
-#clock {
-    background-color: #303446;
+    margin-right: 3;
 }
 
 #battery {
     background-color: #ffffff;
     color: #000000;
+}
+
+#custom-wlogout {
+  color: #74c7ec;
+  margin-right: 12px;
+  margin-left: 12px;
+  border-radius: 4px;
+}
+
+#pulseaudio {
+  color: #b4befe;
+  margin-right: 12px;
+}
+
+#clock {
+  color: #f38ba8;
+}
+
+#custom-japan {
+  color: #cba6f7;
 }
 
 #battery.charging, #battery.plugged {
@@ -160,6 +179,19 @@ label:focus {
     background-color: #000000;
 }
 
+#custom-separator {
+  color: #FFFFFF;
+  margin-left: 16px;
+} 
+
+#custom-separator2 {
+  color: #FFFFFF;
+}
+
+#custom-weather {
+  color: #a6e3a1;
+}
+
 #cpu {
     background-color: #2ecc71;
     color: #000000;
@@ -183,11 +215,6 @@ label:focus {
 
 #network.disconnected {
     background-color: #f53c3c;
-}
-
-#pulseaudio {
-    background-color: #f1c40f;
-    color: #000000;
 }
 
 #pulseaudio.muted {
@@ -219,7 +246,7 @@ label:focus {
 }
 
 #temperature {
-    background-color: #f0932b;
+    color: #f9e2af; 
 }
 
 #temperature.critical {
@@ -227,7 +254,7 @@ label:focus {
 }
 
 #tray {
-    background-color: #303446;
+    background-color: #1e1e2e;
 }
 
 #tray > .passive {
