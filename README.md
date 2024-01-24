@@ -10,7 +10,7 @@ Thx for visiting 🩷, sorry for bad syntax or formating this text itself, im a 
 
 + terminal: [st](https://github.com/siduck/st), [kitty](https://sw.kovidgoyal.net/kitty/) 🖥️
 
-+ colorscheme: darkwave & catppuccin frappe 🎨
++ colorscheme: darkwave & catppuccin mocha 🎨
 
 + font: [sq](https://github.com/leahneukirchen/sq) and [jet brains mono nf](https://www.nerdfonts.com/) 🌟
 
