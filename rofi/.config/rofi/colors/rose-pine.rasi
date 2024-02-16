@@ -1,0 +1,14 @@
+/**
+* rose-pine color to rofi-themes
+*
+* color setup
+**/
+
+* {
+    background:		#191724;
+    background-alt:	#1f1d2e;
+    foreground:		#e0def4;
+    selected: 		#31748f;
+    active:		#31748f;
+    urgent:		#eb6f92;
+}

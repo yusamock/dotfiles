@@ -1,0 +1,41 @@
+*background: #191724 
+*foreground: #e0def4
+
+! overlay + muted
+*color0: #26233a
+*color8: #6e6a86
+
+! love
+*color1: #eb6f92
+*color9: #eb6f92
+
+! foam
+*color2: #9ccfd8
+*color10: #9ccfd8
+
+! gold
+*color3: #f6c177
+*color11: #f6c177
+
+! pine
+*color4: #31748f
+*color12: #31748f
+
+! iris
+*color5: #c4a7e7
+*color13: #c4a7e7
+
+! rose
+*color6: #ebbcba
+*color14: #ebbcba
+
+! text
+*color7: #e0def4
+*color15: #e0def4
+
+! xcursor
+Xcursor.theme: Bibata-Modern-Ice
+Xcursor.size: 24
+
+! st
+st.borderpx:				65
