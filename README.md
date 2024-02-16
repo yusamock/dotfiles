@@ -4,13 +4,13 @@ Thx for visiting 🩷, sorry for bad syntax or formating this text itself, im a 
 
 ## info 🌊
 
-+ os: [arch](archlinux.org) 🔒
++ os: [void](voidlinux.org) 🌀
 
-+ wms: [bspwm](https://github.com/baskerville/bspwm), [dwm](https://dwm.suckless.org/), [hyprland](https://hyprland.org/) 🪟
++ wms: [bspwm](https://github.com/baskerville/bspwm), [dwm](https://dwm.suckless.org/), [hyprland](https://hyprland.org/), [2bwm](https://github.com/venam/2bwm) 🪟
 
 + terminal: [st](https://github.com/siduck/st), [kitty](https://sw.kovidgoyal.net/kitty/) 🖥️
 
-+ colorscheme: darkwave & catppuccin mocha 🎨
++ colorscheme: darkwave, catppuccin mocha, everforest 🎨
 
 + font: [sq](https://github.com/leahneukirchen/sq) and [jet brains mono nf](https://www.nerdfonts.com/) 🌟
 
