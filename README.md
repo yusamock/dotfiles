@@ -59,8 +59,9 @@ stow dotfiles/polybar
 
 
 ### screenshots 📷
+![bf2vmrol9zhc1](https://github.com/yusamock/dotfiles/assets/141967852/fd07a95b-e53f-4003-9218-acb9d3271245)
+
 ![bspwm](https://github.com/yusamock/dotfiles/assets/141967852/389ecaee-3758-4e21-abb7-e5ad51b03b2c)
-![2bwm](https://www.reddit.com/r/unixporn/comments/1as7vfw/hyprland_comfy_blue/)
 ![hyprland](https://github.com/yusamock/dotfiles/assets/141967852/ae33d351-472c-4cb4-8f1d-e498d48ab0c7)
 
 
