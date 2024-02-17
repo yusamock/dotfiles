@@ -40,9 +40,9 @@ emerge -v stow
 ### symlinking it 
 now just "stow" your prefered rice! remember that the folder/file MUST not exist
 
-``
+```sh-session
 stow dotfiles/polybar
-``
+```
 
 ## everything used on rices 🌊
 
