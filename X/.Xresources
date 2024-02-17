@@ -1,41 +1,50 @@
-*background: #191724 
-*foreground: #e0def4
+!TomorrowNightBright
+#define t_background        #010101
+#define t_current_line      #2a2a2a
+#define t_selection      	#424242
+#define t_foreground      	#eaeaea
+#define t_comment	     	#969896
+#define t_red		     	#d54e53
+#define t_orange	     	#e78c45
+#define t_yellow        	#e7c547
+#define t_green	        	#b9ca4a
+#define t_aqua	        	#70c0b1
+#define t_blue	        	#7aa6da
+#define t_purple        	#c397d8
 
-! overlay + muted
-*color0: #26233a
-*color8: #6e6a86
 
-! love
-*color1: #eb6f92
-*color9: #eb6f92
+*.foreground:   t_foreground
+*.background:   t_background
+*.cursorColor:  #aeafad
 
-! foam
-*color2: #9ccfd8
-*color10: #9ccfd8
+! Black / Grey
+*.color0:       #000000
+*.color8:       #666666
 
-! gold
-*color3: #f6c177
-*color11: #f6c177
+! Red / Bright Red
+*.color1:       t_red
+*.color9:       #FF3334
 
-! pine
-*color4: #31748f
-*color12: #31748f
+! Green + Bright Green
+*.color2:       t_green
+*.color10:      #9ec400
 
-! iris
-*color5: #c4a7e7
-*color13: #c4a7e7
+! Yellow (Orange) + Bright Yellow (Yellow)
+*.color3:       t_orange
+*.color11:      t_yellow
 
-! rose
-*color6: #ebbcba
-*color14: #ebbcba
+! Blue + Bright Blue
+*.color4:       t_blue
+*.color12:      t_blue
 
-! text
-*color7: #e0def4
-*color15: #e0def4
+! Magenta (Purple) + Bright Magenta
+*.color5:       t_purple
+*.color13:      #b777e0
 
-! xcursor
-Xcursor.theme: Bibata-Modern-Ice
-Xcursor.size: 24
+! Cyan (Aqua) + Bright Cyan
+*.color6:       t_aqua
+*.color14:      #54ced6
 
-! st
-st.borderpx:				65
+! Light Grey (Selection) + White (Current Line)
+*.color7:       t_selection
+*.color15:      t_current_line
