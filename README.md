@@ -7,33 +7,41 @@ recomend using with GNU stow for auto symlinks into the folders to a better expe
 ### installing it:
 
 void linux
+
 ``
 xbps-install -S stow
 ``
 
 debian/ubuntu
+
 ``
 apt install stow
 ``
 
 arch
+
 ``
 pacman -S stow
+
 ``
 you can use an wrapper or aur helper
 
 fedora
+
 ``
 dnf install stow
 ``
 
 gentoo
+
 ``
 emerge -v stow
 ``
 
+
 ### symlinking it 
 now just "stow" your prefered rice! remember that the folder/file MUST not exist
+
 ``
 stow dotfiles/polybar
 ``
