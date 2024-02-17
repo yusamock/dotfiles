@@ -8,33 +8,33 @@ recomend using with GNU stow for auto symlinks into the folders to a better expe
 
 void linux
 
-``
+```sh-session
 xbps-install -S stow
-``
+```
 
 debian/ubuntu
 
-``
+```sh-session
 apt install stow
-``
+```
 
 arch
 
-``
+```sh-session
 pacman -S stow
-``
+```
 
 fedora
 
-``
+```sh-session
 dnf install stow
-``
+```
 
 gentoo
 
-``
+```sh-session
 emerge -v stow
-``
+```
 
 
 ### symlinking it 
