@@ -22,11 +22,7 @@ arch
 
 ``
 pacman -S stow
-
 ``
-
-you can use an wrapper or aur helper
-
 
 fedora
 
