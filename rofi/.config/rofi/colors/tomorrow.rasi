@@ -1,0 +1,15 @@
+/**
+ *
+ * Author : yusa
+ *
+ * Colors
+ **/
+
+ * {
+ 	background:	#010101;
+	background-alt: #4c4c4c;
+	foreground:	#eaeaea;
+	selected:	#eaeaea;
+	active:		#4c4c4c;
+	urgent:		#eaeaea;
+ }

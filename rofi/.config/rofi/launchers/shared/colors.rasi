@@ -15,4 +15,4 @@
 
 /* Import color-scheme from `colors` directory */
 
-@import "~/.config/rofi/colors/rose-pine.rasi"
+@import "~/.config/rofi/colors/tomorrow.rasi"
