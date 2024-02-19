@@ -40,13 +40,14 @@ emerge -v stow
 ### symlinking it 
 now just "stow" your prefered rice! remember that the folder/file MUST not exist
 
+example:
 ```sh-session
 stow dotfiles/polybar
 ```
 
 ## everything used on rices 🌊
 
-+ os: [arch](archlinux.org) 🌀
++ os: [void](voidlinux.org) 🌀
 
 + wms: [bspwm](https://github.com/baskerville/bspwm), [hyprland](https://hyprland.org/), [2bwm](https://github.com/venam/2bwm) 🪟
 
