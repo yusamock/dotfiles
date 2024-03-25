@@ -45,6 +45,9 @@ example:
 stow dotfiles/polybar
 ```
 
+on Xresources, rename the chosen theme to '.Xresources' and symlink
+
+
 ## everything used on rices 🌊
 
 + os: [void](voidlinux.org) 🌀
