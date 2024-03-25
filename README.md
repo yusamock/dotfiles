@@ -67,6 +67,8 @@ on Xresources, rename the chosen theme to '.Xresources' and symlink
 
 ![bspwm](https://github.com/yusamock/dotfiles/assets/141967852/389ecaee-3758-4e21-abb7-e5ad51b03b2c)
 
+![hyprland](https://cdn.discordapp.com/attachments/635625917623828520/1221944874048295022/hyprland.png?ex=66146bd8&is=6601f6d8&hm=b073f72aa5f359a5968e3211111b1f919e5f3ea37b4545a5d6c04d82c1b59275&)
+
 ![20240217_00h05m24s_grim](https://github.com/yusamock/dotfiles/assets/141967852/569465d5-d977-4aa0-9d7f-22947f65d6b1)
 
 
